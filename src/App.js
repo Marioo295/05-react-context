@@ -1,5 +1,6 @@
 import './App.css';
 import MyPage from './components/MyPage';
+import MyPageContext from './components/MyPageContext';
 
 function App() {
     return (
@@ -10,6 +11,8 @@ function App() {
                 target="_blank"
                 rel="noreferrer"
             >Documentación ContextAPI</a>
+            <hr></hr>
+            <MyPageContext></MyPageContext>
             <hr></hr>
             <MyPage></MyPage>
             <hr></hr>
